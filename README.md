@@ -14,9 +14,11 @@
    For example
 ```
 # My Customer
-API_HOST="https://api.mypurecloud.com.au"
-GENESYS_CLOUD_CLIENT_ID="XXXXXXX-XXXX-XXXX"
-GENESYS_CLOUD_CLIENT_SECRET="YYYYYY"
+GENESYS_CLOUD_REGION=ap_southeast_2
+API_HOST=https://api.mypurecloud.com.au
+GENESYS_CLOUD_CLIENT_ID=XXXXXX-XXXX-XXXX
+GENESYS_CLOUD_CLIENT_SECRET=YYYYYY
+GENESYS_CLOUD_LOGIN_HOST=https://login.mypurecloud.com.au
 ```
 
 4. Carefully watch for the TkInter window to open in the background, which is waiting for you to provide the name of the output file for your results
