@@ -88,7 +88,7 @@ tzinfo = ZoneInfo(szTimeZone)
 now = datetime.now(tzinfo)
 
 # Use the analytics API to retrieve possible agent call drops
-nDayIntervals = 7
+nDayIntervals = 20
 dtEndDate = datetime(now.year, now.month, now.day, tzinfo=tzinfo) + timedelta(days=1)
 dtStartDate = dtEndDate - timedelta(days=nDayIntervals)
 
