@@ -5,8 +5,6 @@
  - Analytics > Agent Conversation Detail > View
  - Analytics > Conversation Aggregate > View
  - Analytics > Conversation Detail > View
- - Telephony > PCAP > Add
- - Telephony > PCAP > View
 
 2. Create a new OAuth credential called OAuth for WebRTC Reporting with grant type "Client Credentials"
 
